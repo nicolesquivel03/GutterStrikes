@@ -27,7 +27,7 @@ export class ScoreButtonService {
       this.scoreButtons[10].isDisabled = true;
       this.scoreButtons[11].isDisabled = false;
       
-      let index = this.scoreButtons.findIndex(s => +s.display == (10 - +score));
+      let index = this.scoreButtons.findIndex(s => s.id == (10 - +score));
       for(let i = index; i < 10; i++) {
         this.scoreButtons[i].isDisabled = true;
       }
