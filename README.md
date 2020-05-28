@@ -3,7 +3,7 @@
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 9.1.7.
 
 ## Instructions
-Enter your scores for each frame by using the buttons below. It will fill each frame's score in order starting from the first frame. Reset the scoreboard anytime by using the Reset button.
+Enter your scores for each frame by using the score buttons. It will fill each frame's score in order starting from the first frame. Reset the scoreboard anytime by using the Reset button.
 
 ## Development server
 
