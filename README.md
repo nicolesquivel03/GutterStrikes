@@ -1,6 +1,9 @@
-# BowlingApp
+# GutterStrikes
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 9.1.7.
+
+## Instructions
+Enter your scores for each frame by using the score buttons. It will fill each frame's score in order starting from the first frame. Reset the scoreboard anytime by using the Reset button.
 
 ## Development server
 
@@ -17,10 +20,6 @@ Run `ng build` to build the project. The build artifacts will be stored in the `
 ## Running unit tests
 
 Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
-
-## Running end-to-end tests
-
-Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protractortest.org/).
 
 ## Further help
 
