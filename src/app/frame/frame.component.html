@@ -1,0 +1,16 @@
+<div class="card">
+    <div class="card-title">
+        <h4>{{ frame.name }}</h4>
+    </div>
+    <div class="scores"  *ngIf="frame.name != 'TOTAL'">
+        <label>{{ frame.score1 }}</label>
+        <mat-divider [vertical]="true"></mat-divider>
+        <label>{{ frame.score2 }}</label>
+        <mat-divider [vertical]="true" *ngIf="frame.name == 'Frame 10'"></mat-divider>
+        <label *ngIf="frame.name == 'Frame 10'">{{ frame.score3 }}</label>
+    </div>
+    <div class="card-footer">
+        <mat-divider [inset]="true"  *ngIf="frame.name != 'TOTAL'"></mat-divider>
+        <label class="total">{{ frame.total }}</label>
+    </div>
+</div>
